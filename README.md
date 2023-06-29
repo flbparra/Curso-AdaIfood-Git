@@ -7,8 +7,16 @@ Nesse repositório irar encontrar parte do meu aprendizado, que venho retendo co
   3. ALURA
   4. CNJ
 
-
+---
 ### Comandados GIT
+
+``git add ".\nome arquivo"``:
+* esse comando é bantante importante, aqui é como se tivesse upando alguma foto do seu projeto, antes de dar o commit (antes de comentar alguma coisa nos status e postar).
+
+*Paramentros*:
+* ``git add .``: Com esse ponto você envia todas as modificações que fez no repositório local. As vezes é bom quando está tudo concluído, porém ter um controle do que foi modificado, mandando apenas um arquivo por vez é bastante importante.
+
+---
 
 ``git diff ``:
 * Esse comando serve para ver as alterações feitas no código ou nos blocos de textos, tantos as linhas que foram acrecentadas e retiradas.
@@ -16,11 +24,32 @@ Nesse repositório irar encontrar parte do meu aprendizado, que venho retendo co
 *Parametros:*
 * ``git diff --staged`` : Ápos o comando add não conseguimos ver o que foi alterado nas linhas, porém passando paretro "git diff --staged", conseguimos ver as linhas alteradas.
 
+---
+
 ``git commit``
 * Esse comando serve para você salvar o estado das suas alterações, geralmente é feito quando se tem algo pronto. Dividindo assim o progresso em vários passos.
 
 *Parametros*:
 * ``git commit -m "testando commit"``: Com esse paramentro (um dos principais que você vai usar durante sua carreira) conseguimos comentar algo durante o commit para deixar um aviso do que foi feito naquele commit:
 * ``git commit -a -m "testando commit``: Além de você poder dar commit também serve para subistuir o ``git add``, porém não funciona para criação de arquivos novos, só para edição dos que já existem.
+
+---
+
+``git log``:
+* Traz um histórico de commits do que foi editado. Assim você consegue ver o que já foi commitado e por quem (por isso é bom fazer os comentários com o parametro *-m*, para indicar o que está sendo atualizando e feito durante o projeto). Vai retorna uma hash que seria como um checksum.
+   **_Hash:_**![Hash](img/checksum.png)
+
+_Parametros:_
+
+---
+
+``git restore ".\arquivo"``:
+* Esse comando conseguimos restaurar o modo anterior do arquivo.
+
+_Parametros:_
+* ``git restore .``: Restaura todos tudo para o status anterior (para "hash" anterior).
+* ``git restore --staged . or ".\arquivo"``: Volta todos para o status de modificado, tirando basicamente o que o ``git add .  or ".\arquivo"`` tinha feito antes.
+
+---
    
 
