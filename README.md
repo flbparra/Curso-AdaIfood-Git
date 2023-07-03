@@ -51,5 +51,29 @@ _Parametros:_
 * ``git restore --staged . or ".\arquivo"``: Volta todos para o status de modificado, tirando basicamente o que o ``git add .  or ".\arquivo"`` tinha feito antes.
 
 ---
-   
 
+``git restore .\teste.txt``:
+* Serve para restaura uma mudanda em algum arquivo que você editou e salvou e não quer mais aquela mudança.
+* _Parametros_:
+  * ```git restore --staged```: Retorna para area de modificação apos dar ``git add .\arquivo.txt``, tira da área de postagem e volta para edição.
+---
+####Repositório Remoto
+
+####``git remote``:
+* Mostra todos os repositórios remotos que estão prensentes na sua maquina local.
+* _Parametros_:
+  * ``git remote add "nome" "endeço"``: Adiciona um repositório remoto para enviar e baixar arquivos do projeto.
+
+#### ``git push``:
+* envia arquivos para repositório remoto.
+  
+#### ``git fetch``: 
+* Busca todas as alterações feitas no repositório remoto e baixa elas, para você ver tem que usar o ``git diff``.
+
+#### ``git pull``: 
+* Baixa para seu reporitório local os arquivos do repositório remoto.
+----
+
+Fazer; Braches, merge, e procurar novos comandos para colocar aqui.
+
+  
