@@ -18,7 +18,7 @@ Nesse repositório irar encontrar parte do meu aprendizado, que venho retendo co
 
 ---
 
-``git diff ``:
+#### ``git diff ``:
 * Esse comando serve para ver as alterações feitas no código ou nos blocos de textos, tantos as linhas que foram acrecentadas e retiradas.
 
 *Parametros:*
@@ -26,7 +26,7 @@ Nesse repositório irar encontrar parte do meu aprendizado, que venho retendo co
 
 ---
 
-``git commit``
+#### ``git commit``
 * Esse comando serve para você salvar o estado das suas alterações, geralmente é feito quando se tem algo pronto. Dividindo assim o progresso em vários passos.
 
 *Parametros*:
@@ -35,7 +35,7 @@ Nesse repositório irar encontrar parte do meu aprendizado, que venho retendo co
 
 ---
 
-``git log``:
+#### ``git log``:
 * Traz um histórico de commits do que foi editado. Assim você consegue ver o que já foi commitado e por quem (por isso é bom fazer os comentários com o parametro *-m*, para indicar o que está sendo atualizando e feito durante o projeto). Vai retorna uma hash que seria como um checksum.
    **_Hash:_**![Hash](img/checksum.png)
 
@@ -57,7 +57,7 @@ _Parametros:_
 * _Parametros_:
   * ```git restore --staged```: Retorna para area de modificação apos dar ``git add .\arquivo.txt``, tira da área de postagem e volta para edição.
 ---
-####Repositório Remoto
+#### Repositório Remoto
 
 ####``git remote``:
 * Mostra todos os repositórios remotos que estão prensentes na sua maquina local.
